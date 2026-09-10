@@ -1,0 +1,334 @@
+[
+  {
+    "id": "CMP-1001",
+    "studentId": "STU001",
+    "studentName": "Rahul Kumar",
+    "studentEmail": "student@example.com",
+    "department": "Computer Science & Engineering",
+    "title": "Wi-Fi connection unavailable in Block A 3rd Floor",
+    "category": "Wi-Fi",
+    "location": "Block A",
+    "priority": "High",
+    "status": "In Progress",
+    "description": "The campus Wi-Fi access point near Room 304 in Block A has been completely unresponsive since yesterday morning. Over 60 students in the afternoon lab session were unable to access course portals.",
+    "adminRemarks": "IT Network specialist Mr. Sharma has been assigned to inspect and replace the faulty PoE switch on the 3rd floor rack.",
+    "createdAt": "2026-09-08T09:15:00.000Z",
+    "updatedAt": "2026-09-08T14:30:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-08T09:15:00.000Z", "note": "Complaint filed by Rahul Kumar" },
+      { "status": "Under Review", "timestamp": "2026-09-08T11:00:00.000Z", "note": "Reviewed by Campus Administrator" },
+      { "status": "In Progress", "timestamp": "2026-09-08T14:30:00.000Z", "note": "Dispatched IT Network engineer to Block A" }
+    ]
+  },
+  {
+    "id": "CMP-1002",
+    "studentId": "STU001",
+    "studentName": "Rahul Kumar",
+    "studentEmail": "student@example.com",
+    "department": "Computer Science & Engineering",
+    "title": "Classroom 204 ceiling projector flickering",
+    "category": "Classroom",
+    "location": "Block B",
+    "priority": "Medium",
+    "status": "Resolved",
+    "description": "The HDMI projector keeps losing video sync every 3-4 minutes during lectures, making slides impossible to read.",
+    "adminRemarks": "Replaced the damaged HDMI cable and cleaned the optical ventilation filter. Tested working properly.",
+    "createdAt": "2026-09-04T10:30:00.000Z",
+    "updatedAt": "2026-09-05T16:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-04T10:30:00.000Z", "note": "Complaint filed by Rahul Kumar" },
+      { "status": "Under Review", "timestamp": "2026-09-04T12:00:00.000Z", "note": "Forwarded to AV Facilities Team" },
+      { "status": "In Progress", "timestamp": "2026-09-05T09:15:00.000Z", "note": "AV technician testing cables and projector lens" },
+      { "status": "Resolved", "timestamp": "2026-09-05T16:00:00.000Z", "note": "Replaced cable & verified display output" }
+    ]
+  },
+  {
+    "id": "CMP-1003",
+    "studentId": "STU002",
+    "studentName": "Ananya Sharma",
+    "studentEmail": "ananya.sharma@campus.edu",
+    "department": "Artificial Intelligence & Data Science",
+    "title": "Power socket short-circuit in AI Laboratory 2",
+    "category": "Electricity",
+    "location": "Laboratory",
+    "priority": "High",
+    "status": "In Progress",
+    "description": "Row 3 workstation sockets sparked when plugging in workstations. Power tripped across the entire north wing of the AI Lab.",
+    "adminRemarks": "Campus electrical team has isolated Circuit Breaker 4. Rewiring of affected power strips currently underway.",
+    "createdAt": "2026-09-07T14:10:00.000Z",
+    "updatedAt": "2026-09-08T09:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-07T14:10:00.000Z", "note": "Complaint filed by Ananya Sharma" },
+      { "status": "Under Review", "timestamp": "2026-09-07T14:45:00.000Z", "note": "Escalated as urgent electrical safety hazard" },
+      { "status": "In Progress", "timestamp": "2026-09-08T09:00:00.000Z", "note": "Electrician team deployed on-site" }
+    ]
+  },
+  {
+    "id": "CMP-1004",
+    "studentId": "STU003",
+    "studentName": "Marcus Vance",
+    "studentEmail": "m.vance@campus.edu",
+    "department": "Electrical & Electronics Engineering",
+    "title": "Water cooler leakage in Hostel Block 2 hallway",
+    "category": "Water",
+    "location": "Hostel",
+    "priority": "Medium",
+    "status": "Under Review",
+    "description": "Continuous water leakage from the base of the drinking water cooler on the second floor. Creates slipping hazard near staircase.",
+    "adminRemarks": "Plumbing department notified to inspect valve and condensation tray.",
+    "createdAt": "2026-09-08T18:20:00.000Z",
+    "updatedAt": "2026-09-09T08:30:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-08T18:20:00.000Z", "note": "Complaint filed by Marcus Vance" },
+      { "status": "Under Review", "timestamp": "2026-09-09T08:30:00.000Z", "note": "Maintenance officer dispatched for assessment" }
+    ]
+  },
+  {
+    "id": "CMP-1005",
+    "studentId": "STU004",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.p@campus.edu",
+    "department": "Mechanical Engineering",
+    "title": "Broken ergonomic chairs in Central Library quiet zone",
+    "category": "Furniture",
+    "location": "Library",
+    "priority": "Low",
+    "status": "Submitted",
+    "description": "Four revolving chairs at desks 12 through 15 have broken hydraulic gas cylinders and tilted armrests.",
+    "adminRemarks": "",
+    "createdAt": "2026-09-09T11:05:00.000Z",
+    "updatedAt": "2026-09-09T11:05:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-09T11:05:00.000Z", "note": "Complaint filed by Priya Patel" }
+    ]
+  },
+  {
+    "id": "CMP-1006",
+    "studentId": "STU005",
+    "studentName": "David Chen",
+    "studentEmail": "david.chen@campus.edu",
+    "department": "Information Technology",
+    "title": "Unsanitary cafeteria handwashing basin",
+    "category": "Cleanliness",
+    "location": "Canteen",
+    "priority": "Medium",
+    "status": "In Progress",
+    "description": "The main wash basins in the student cafeteria have clogged drains and soap dispensers have been empty for two consecutive days.",
+    "adminRemarks": "Sanitation supervisor informed. Deep cleaning scheduled and automatic soap dispensers restocked.",
+    "createdAt": "2026-09-06T12:30:00.000Z",
+    "updatedAt": "2026-09-07T10:15:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-06T12:30:00.000Z", "note": "Complaint filed by David Chen" },
+      { "status": "Under Review", "timestamp": "2026-09-06T14:00:00.000Z", "note": "Assigned to Campus Hygiene Services" },
+      { "status": "In Progress", "timestamp": "2026-09-07T10:15:00.000Z", "note": "Cleaning crew assigned" }
+    ]
+  },
+  {
+    "id": "CMP-1007",
+    "studentId": "STU006",
+    "studentName": "Sneha Reddy",
+    "studentEmail": "sneha.r@campus.edu",
+    "department": "Civil Engineering",
+    "title": "Air conditioning unit leaking water in Seminar Hall",
+    "category": "Classroom",
+    "location": "Block C",
+    "priority": "Medium",
+    "status": "Resolved",
+    "description": "Split AC in Seminar Hall 1 drips directly onto speaker podium and front row audio cabling.",
+    "adminRemarks": "HVAC drainage pipe cleared of leaf debris and re-insulated. Condensation flow verified.",
+    "createdAt": "2026-09-02T15:20:00.000Z",
+    "updatedAt": "2026-09-03T17:40:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-02T15:20:00.000Z", "note": "Complaint filed by Sneha Reddy" },
+      { "status": "Under Review", "timestamp": "2026-09-02T16:00:00.000Z", "note": "Urgent ticket created for upcoming seminar" },
+      { "status": "In Progress", "timestamp": "2026-09-03T11:00:00.000Z", "note": "AC technician repairing drain pipe" },
+      { "status": "Resolved", "timestamp": "2026-09-03T17:40:00.000Z", "note": "Repair verified and tested" }
+    ]
+  },
+  {
+    "id": "CMP-1008",
+    "studentId": "STU007",
+    "studentName": "Liam Gallagher",
+    "studentEmail": "liam.g@campus.edu",
+    "department": "Biotechnology",
+    "title": "Broken security light fixture in West Parking area",
+    "category": "Electricity",
+    "location": "Parking",
+    "priority": "High",
+    "status": "Under Review",
+    "description": "Floodlight post #3 near two-wheeler parking lot is dark, making evening departures hazardous.",
+    "adminRemarks": "Security office confirmed; replacement LED driver ordered.",
+    "createdAt": "2026-09-07T20:10:00.000Z",
+    "updatedAt": "2026-09-08T10:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-07T20:10:00.000Z", "note": "Complaint filed by Liam Gallagher" },
+      { "status": "Under Review", "timestamp": "2026-09-08T10:00:00.000Z", "note": "Acknowledged by Security & Electrical committee" }
+    ]
+  },
+  {
+    "id": "CMP-1009",
+    "studentId": "STU008",
+    "studentName": "Kavita Nair",
+    "studentEmail": "kavita.n@campus.edu",
+    "department": "Computer Science & Engineering",
+    "title": "Low water pressure in Girls Hostel 3rd Floor bathrooms",
+    "category": "Water",
+    "location": "Hostel",
+    "priority": "High",
+    "status": "In Progress",
+    "description": "Water barely trickles in washrooms 301 to 308 since this morning. Morning routine severely impacted.",
+    "adminRemarks": "Overhead booster pump #2 motor failure diagnosed. Maintenance crew replacing capacitor.",
+    "createdAt": "2026-09-08T07:45:00.000Z",
+    "updatedAt": "2026-09-08T12:30:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-08T07:45:00.000Z", "note": "Complaint filed by Kavita Nair" },
+      { "status": "Under Review", "timestamp": "2026-09-08T08:15:00.000Z", "note": "Priority escalated by Hostel Warden" },
+      { "status": "In Progress", "timestamp": "2026-09-08T12:30:00.000Z", "note": "Pump repair underway" }
+    ]
+  },
+  {
+    "id": "CMP-1010",
+    "studentId": "STU009",
+    "studentName": "Alexander Hayes",
+    "studentEmail": "a.hayes@campus.edu",
+    "department": "Electronics & Communication",
+    "title": "Broken bench seating beside Sports Playground track",
+    "category": "Furniture",
+    "location": "Playground",
+    "priority": "Low",
+    "status": "Resolved",
+    "description": "Wooden slats on two spectator benches have cracked and splintered, exposing rusty screws.",
+    "adminRemarks": "Replaced damaged timber slats with weather-resistant composite boards and repainted.",
+    "createdAt": "2026-08-28T16:00:00.000Z",
+    "updatedAt": "2026-09-01T14:20:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-08-28T16:00:00.000Z", "note": "Complaint filed by Alexander Hayes" },
+      { "status": "Under Review", "timestamp": "2026-08-29T10:00:00.000Z", "note": "Reviewed by Sports Facilities Manager" },
+      { "status": "In Progress", "timestamp": "2026-08-30T11:00:00.000Z", "note": "Carpentry team handling replacement" },
+      { "status": "Resolved", "timestamp": "2026-09-01T14:20:00.000Z", "note": "Completed and safety inspected" }
+    ]
+  },
+  {
+    "id": "CMP-1011",
+    "studentId": "STU010",
+    "studentName": "Fatima Zahra",
+    "studentEmail": "fatima.z@campus.edu",
+    "department": "Artificial Intelligence & Data Science",
+    "title": "Overfilled trash cans outside Science Laboratory entrance",
+    "category": "Cleanliness",
+    "location": "Laboratory",
+    "priority": "Low",
+    "status": "Resolved",
+    "description": "Waste disposal bins outside chemistry lab 101 have not been cleared since Friday, causing unpleasant odors.",
+    "adminRemarks": "Janitorial crew cleared the bins and installed an additional recycling station.",
+    "createdAt": "2026-09-05T08:30:00.000Z",
+    "updatedAt": "2026-09-05T13:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-05T08:30:00.000Z", "note": "Complaint filed by Fatima Zahra" },
+      { "status": "In Progress", "timestamp": "2026-09-05T10:00:00.000Z", "note": "Cleaning team dispatched" },
+      { "status": "Resolved", "timestamp": "2026-09-05T13:00:00.000Z", "note": "Emptied and sanitized" }
+    ]
+  },
+  {
+    "id": "CMP-1012",
+    "studentId": "STU001",
+    "studentName": "Rahul Kumar",
+    "studentEmail": "student@example.com",
+    "department": "Computer Science & Engineering",
+    "title": "Canteen microwave oven door latch damaged",
+    "category": "Canteen",
+    "location": "Canteen",
+    "priority": "Low",
+    "status": "Under Review",
+    "description": "Self-service student microwave in cafeteria corner does not start unless the door is pressed hard. Safety switch looks faulty.",
+    "adminRemarks": "Unit taken out of service temporarily pending appliance technician visit.",
+    "createdAt": "2026-09-09T13:15:00.000Z",
+    "updatedAt": "2026-09-09T14:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-09T13:15:00.000Z", "note": "Complaint filed by Rahul Kumar" },
+      { "status": "Under Review", "timestamp": "2026-09-09T14:00:00.000Z", "note": "Cafeteria manager logged maintenance request" }
+    ]
+  },
+  {
+    "id": "CMP-1013",
+    "studentId": "STU003",
+    "studentName": "Marcus Vance",
+    "studentEmail": "m.vance@campus.edu",
+    "department": "Electrical & Electronics Engineering",
+    "title": "Chemical fume hood ventilation alarm sounding intermittently",
+    "category": "Laboratory",
+    "location": "Laboratory",
+    "priority": "High",
+    "status": "In Progress",
+    "description": "Exhaust hood #4 in Organic Chemistry lab indicates low airflow warning lamp even when damper is set to max velocity.",
+    "adminRemarks": "Safety Officer sealed hood #4 with caution tape; lab technician servicing roof extraction blower.",
+    "createdAt": "2026-09-07T11:00:00.000Z",
+    "updatedAt": "2026-09-07T15:30:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-07T11:00:00.000Z", "note": "Complaint filed by Marcus Vance" },
+      { "status": "Under Review", "timestamp": "2026-09-07T11:30:00.000Z", "note": "Lab Safety Officer review" },
+      { "status": "In Progress", "timestamp": "2026-09-07T15:30:00.000Z", "note": "Blower inspection scheduled" }
+    ]
+  },
+  {
+    "id": "CMP-1014",
+    "studentId": "STU005",
+    "studentName": "David Chen",
+    "studentEmail": "david.chen@campus.edu",
+    "department": "Information Technology",
+    "title": "Request for personal gaming console Wi-Fi bypass",
+    "category": "Other",
+    "location": "Hostel",
+    "priority": "Low",
+    "status": "Rejected",
+    "description": "Requesting firewall port forwarding for multiplayer console gaming in room 214.",
+    "adminRemarks": "Campus IT security policy strictly restricts gaming port modifications on academic subnets.",
+    "createdAt": "2026-08-30T19:00:00.000Z",
+    "updatedAt": "2026-08-31T11:00:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-08-30T19:00:00.000Z", "note": "Complaint filed by David Chen" },
+      { "status": "Rejected", "timestamp": "2026-08-31T11:00:00.000Z", "note": "Declined per Campus IT Acceptable Use Policy" }
+    ]
+  },
+  {
+    "id": "CMP-1015",
+    "studentId": "STU004",
+    "studentName": "Priya Patel",
+    "studentEmail": "priya.p@campus.edu",
+    "department": "Mechanical Engineering",
+    "title": "Library digital catalogue terminal unresponsive",
+    "category": "Wi-Fi",
+    "location": "Library",
+    "priority": "Medium",
+    "status": "Resolved",
+    "description": "Search kiosk OPAC-2 on ground floor exhibits black screen and beep code on boot.",
+    "adminRemarks": "CMOS battery replaced and system BIOS reconfigured. Terminal restored to online status.",
+    "createdAt": "2026-09-01T10:00:00.000Z",
+    "updatedAt": "2026-09-02T14:15:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-01T10:00:00.000Z", "note": "Complaint filed by Priya Patel" },
+      { "status": "Under Review", "timestamp": "2026-09-01T11:30:00.000Z", "note": "Library systems admin alerted" },
+      { "status": "In Progress", "timestamp": "2026-09-02T09:00:00.000Z", "note": "Hardware diagnostic running" },
+      { "status": "Resolved", "timestamp": "2026-09-02T14:15:00.000Z", "note": "CMOS replacement completed" }
+    ]
+  },
+  {
+    "id": "CMP-1016",
+    "studentId": "STU002",
+    "studentName": "Ananya Sharma",
+    "studentEmail": "ananya.sharma@campus.edu",
+    "department": "Artificial Intelligence & Data Science",
+    "title": "Block C 2nd floor staircase handrail loose",
+    "category": "Classroom",
+    "location": "Block C",
+    "priority": "Medium",
+    "status": "Submitted",
+    "description": "The stainless steel handrail anchors have worked loose on the middle landing, wobbling when gripped.",
+    "adminRemarks": "",
+    "createdAt": "2026-09-09T16:40:00.000Z",
+    "updatedAt": "2026-09-09T16:40:00.000Z",
+    "timeline": [
+      { "status": "Submitted", "timestamp": "2026-09-09T16:40:00.000Z", "note": "Complaint filed by Ananya Sharma" }
+    ]
+  }
+]

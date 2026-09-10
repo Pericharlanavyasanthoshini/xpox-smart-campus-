@@ -1,0 +1,10 @@
+{
+  "name": "SMART CAMPUS – College Complaint & Attendance Management System",
+  "description": "A comprehensive college campus platform with student complaint tracking, automated priority triage, and biometric face recognition student attendance.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

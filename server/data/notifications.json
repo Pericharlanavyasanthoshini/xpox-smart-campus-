@@ -1,0 +1,122 @@
+[
+  {
+    "id": "NOTIF-001",
+    "userId": "STU001",
+    "complaintId": "CMP-1001",
+    "title": "Complaint Status Updated",
+    "message": "Your complaint CMP-1001 (Wi-Fi connection unavailable in Block A) is now In Progress. IT technician assigned.",
+    "type": "status_change",
+    "read": false,
+    "createdAt": "2026-09-08T14:30:00.000Z"
+  },
+  {
+    "id": "NOTIF-002",
+    "userId": "STU001",
+    "complaintId": "CMP-1001",
+    "title": "Admin Remark Added",
+    "message": "Admin added remark: 'IT Network specialist Mr. Sharma has been assigned to inspect and replace the faulty PoE switch.'",
+    "type": "remark",
+    "read": false,
+    "createdAt": "2026-09-08T14:35:00.000Z"
+  },
+  {
+    "id": "NOTIF-003",
+    "userId": "STU001",
+    "complaintId": "CMP-1002",
+    "title": "Complaint Resolved!",
+    "message": "Your complaint CMP-1002 (Classroom 204 ceiling projector flickering) has been marked as Resolved. Replaced HDMI cable.",
+    "type": "resolved",
+    "read": true,
+    "createdAt": "2026-09-05T16:00:00.000Z"
+  },
+  {
+    "id": "NOTIF-004",
+    "userId": "STU001",
+    "complaintId": "CMP-1012",
+    "title": "Complaint Submitted",
+    "message": "Your complaint CMP-1012 has been successfully registered and queued for administrative review.",
+    "type": "submission",
+    "read": true,
+    "createdAt": "2026-09-09T13:15:00.000Z"
+  },
+  {
+    "id": "NOTIF-005",
+    "userId": "STU002",
+    "complaintId": "CMP-1003",
+    "title": "High Priority Escalation",
+    "message": "Your complaint CMP-1003 regarding power socket short-circuit has been escalated to High Priority.",
+    "type": "status_change",
+    "read": false,
+    "createdAt": "2026-09-07T14:45:00.000Z"
+  },
+  {
+    "id": "NOTIF-006",
+    "userId": "STU003",
+    "complaintId": "CMP-1004",
+    "title": "Complaint Under Review",
+    "message": "Your complaint CMP-1004 (Water cooler leakage in Hostel) is currently under review by Facilities.",
+    "type": "status_change",
+    "read": true,
+    "createdAt": "2026-09-09T08:30:00.000Z"
+  },
+  {
+    "id": "NOTIF-007",
+    "userId": "STU006",
+    "complaintId": "CMP-1007",
+    "title": "Complaint Resolved!",
+    "message": "Your complaint CMP-1007 (AC unit leaking water in Seminar Hall) has been resolved.",
+    "type": "resolved",
+    "read": true,
+    "createdAt": "2026-09-03T17:40:00.000Z"
+  },
+  {
+    "id": "NOTIF-008",
+    "userId": "STU008",
+    "complaintId": "CMP-1009",
+    "title": "Maintenance Dispatched",
+    "message": "Complaint CMP-1009 (Low water pressure in Girls Hostel) is In Progress. Booster pump capacitor replacement in progress.",
+    "type": "status_change",
+    "read": false,
+    "createdAt": "2026-09-08T12:30:00.000Z"
+  },
+  {
+    "id": "NOTIF-009",
+    "userId": "STU005",
+    "complaintId": "CMP-1014",
+    "title": "Complaint Decision",
+    "message": "Your request CMP-1014 has been reviewed and Rejected. Remark: Campus IT policy restricts gaming port exceptions.",
+    "type": "status_change",
+    "read": true,
+    "createdAt": "2026-08-31T11:00:00.000Z"
+  },
+  {
+    "id": "NOTIF-010",
+    "userId": "STU004",
+    "complaintId": "CMP-1015",
+    "title": "Complaint Resolved!",
+    "message": "Your complaint CMP-1015 (Library digital catalogue terminal) is resolved. Terminal has been restored online.",
+    "type": "resolved",
+    "read": true,
+    "createdAt": "2026-09-02T14:15:00.000Z"
+  },
+  {
+    "id": "NOTIF-011",
+    "userId": "ADM001",
+    "complaintId": "CMP-1016",
+    "title": "New Complaint Submitted",
+    "message": "Ananya Sharma submitted a new complaint CMP-1016: 'Block C 2nd floor staircase handrail loose'.",
+    "type": "submission",
+    "read": false,
+    "createdAt": "2026-09-09T16:40:00.000Z"
+  },
+  {
+    "id": "NOTIF-012",
+    "userId": "ADM001",
+    "complaintId": "CMP-1005",
+    "title": "New Complaint Submitted",
+    "message": "Priya Patel submitted complaint CMP-1005: 'Broken ergonomic chairs in Central Library'.",
+    "type": "submission",
+    "read": false,
+    "createdAt": "2026-09-09T11:05:00.000Z"
+  }
+]
